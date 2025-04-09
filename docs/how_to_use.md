@@ -43,9 +43,9 @@ git clone https://github.com/netease-im/yunxin-mcp-server.git
 ```
 ```
 --directory
-/xx/your-code-projects/yunxin-mcp-server
+/xx/your-code-projects/yunxin-mcp-server/src/yunxin_mcp
 run
-main.py
+server.py
 ```
 ```
 AppKey=your_appkey
@@ -62,9 +62,9 @@ AppSecret=your_secret
       "command": "/xxx/xxx/.local/bin/uv",
       "args": [
         "--directory",
-        "/xx/your-code-projects/yunxin-mcp-server",
+        "/xx/your-code-projects/yunxin-mcp-server/src/yunxin_mcp",
         "run",
-        "main.py"
+        "server.py"
       ],
       "env": {
         "AppKey": "your_appkey",
