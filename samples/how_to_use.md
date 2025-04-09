@@ -5,7 +5,6 @@
 
 以下以deepseek和cherry-studio为例
 
-
 ### 下载cherry-studio
 
 参考：[链接](https://cherry-ai.com/download)
@@ -79,3 +78,6 @@ AppSecret=your_secret
 ```
 
 * 保存并启用
+
+
+### 有任何问题欢迎联系云信技术支持！
