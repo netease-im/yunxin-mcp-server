@@ -39,11 +39,11 @@ git clone https://github.com/netease-im/yunxin-mcp-server.git
 
 参数如下：
 ```
-/Users/caojiajun/.local/bin/uv
+/xxx/xxx/.local/bin/uv
 ```
 ```
 --directory
-/Users/caojiajun/code-projects/netease/yunxin-mcp-server
+/xx/your-code-projects/yunxin-mcp-server
 run
 main.py
 ```
@@ -57,20 +57,18 @@ AppSecret=your_secret
 {
   "mcpServers": {
     "my_tool": {
-      "isActive": true,
       "name": "yunxin_mcp_server",
       "type": "stdio",
-      "registryUrl": "",
       "command": "/xxx/xxx/.local/bin/uv",
       "args": [
         "--directory",
-        "/your_code-projects/yunxin-mcp-server",
+        "/xx/your-code-projects/yunxin-mcp-server",
         "run",
         "main.py"
       ],
       "env": {
-        "AppKey": "xxxx",
-        "AppSecret": "xxx"
+        "AppKey": "your_appkey",
+        "AppSecret": "your_secret"
       }
     }
   }
