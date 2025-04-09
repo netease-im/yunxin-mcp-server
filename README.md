@@ -4,6 +4,12 @@
 * yunxin-mcp-server提供了多种工具，你可以基于大模型客户端，直接调用并分析  
 * 如果你对当前提供的工具有什么建议，或者其他的工具需求，欢迎留言告诉我们！
 
+# 如果使用
+
+示例：[how_to_use](samples/how_to_use.md)
+
+# 工具集合
+
 ## send_p2p_msg/send_team_msg
 
 * 功能：发送单聊/群聊消息
