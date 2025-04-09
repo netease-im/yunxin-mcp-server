@@ -56,7 +56,7 @@ AppSecret=your_secret
 ```json
 {
   "mcpServers": {
-    "my_tool": {
+    "yunxin_mcp": {
       "name": "yunxin_mcp_server",
       "type": "stdio",
       "command": "/xxx/xxx/.local/bin/uv",
