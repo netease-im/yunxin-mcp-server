@@ -714,11 +714,18 @@ def timestamp_format_num_to_str(time: int):
         dt_object = datetime.fromtimestamp(time / 1000)
         return dt_object.strftime("%Y-%m-%d %H:%M:%S")
 
-
-if __name__ == "__main__":
+def main():
     print("Yunxin MCP Server running")
+
+    global appkey
+    global secret
 
     appkey = os.getenv("AppKey")
     secret = os.getenv("AppSecret")
 
     mcp.run(transport='stdio')
+
+if __name__ == "__main__":
+    main()
+
+
