@@ -1,17 +1,23 @@
 [project]
 name = "yunxin-mcp-server"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.1.2"
+description = "yunxin mcp server to request im/rtc api"
 readme = "README.md"
 requires-python = ">=3.11"
+authors = [{name = "caojiajun"}]
+maintainers = [{name = "caojiajun", email = "zj_caojiajun@163.com"}]
+license = {text = "MIT"}
+license-files = ["LICEN[CS]E*"]
+keywords = ["yunxin", "im", "rtc", "mcp"]
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
 dependencies = [
     "mcp>=1.6.0",
     "requests>=2.32.3",
 ]
-
-[[project.authors]]
-name = "caojiajun"
-email = "zj_caojiajun@163.com"
 
 [build-system]
 requires = ["hatchling"]
@@ -21,7 +27,7 @@ build-backend = "hatchling.build"
 packages = ["src/yunxin_mcp"]
 
 [project.scripts]
-yunxin_mcp_server = "yunxin_mcp_server:main"
+yunxin_mcp_server = "yunxin_mcp:main"
 
 [project.urls]
 "Homepage" = "https://github.com/netease-im/yunxin-mcp-server"

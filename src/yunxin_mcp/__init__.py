@@ -1,4 +1,4 @@
-from src.yunxin_mcp import server
+from yunxin_mcp import server
 
 
 def main():
