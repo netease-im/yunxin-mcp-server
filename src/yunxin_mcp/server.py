@@ -227,8 +227,8 @@ def queryApplicationIMDailyData(start_time: str, end_time: str):
 )
 def queryImOnlineConnectLast(minute: int):
     try:
-        current_time = datetime.now() - timedelta(minutes=1)
-        time_n_minutes_ago = current_time - timedelta(minutes=(minute+1))
+        current_time = datetime.now() - timedelta(minutes=2)
+        time_n_minutes_ago = current_time - timedelta(minutes=(minute+2))
         data = {
             "startTime": time_n_minutes_ago.strftime("%Y-%m-%d %H:%M:%S"),
             "endTime": current_time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -289,8 +289,8 @@ def queryImOnlineConnect(start_time: str, end_time: str):
 )
 def queryImMsgLast(minute: int, msgType: int):
     try:
-        current_time = datetime.now() - timedelta(minutes=1)
-        time_n_minutes_ago = current_time - timedelta(minutes=(minute+1))
+        current_time = datetime.now() - timedelta(minutes=2)
+        time_n_minutes_ago = current_time - timedelta(minutes=(minute+2))
         data = {
             "startTime": time_n_minutes_ago.strftime("%Y-%m-%d %H:%M:%S"),
             "endTime": current_time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -355,8 +355,8 @@ def queryImMsg(start_time: str, end_time: str, msgType: int):
 )
 def queryImApiStatsLast(minute: int, uri: str):
     try:
-        current_time = datetime.now() - timedelta(minutes=1)
-        time_n_minutes_ago = current_time - timedelta(minutes=(minute+1))
+        current_time = datetime.now() - timedelta(minutes=2)
+        time_n_minutes_ago = current_time - timedelta(minutes=(minute+2))
         data = {
             "startTime": time_n_minutes_ago.strftime("%Y-%m-%d %H:%M:%S"),
             "endTime": current_time.strftime("%Y-%m-%d %H:%M:%S"),
@@ -426,7 +426,7 @@ def queryImApiStats(start_time: str, end_time: str, uri: str):
 def queryImSdkStatsLast(minute: int, uri: str):
     try:
         current_time = datetime.now() - timedelta(minutes=2)
-        time_n_minutes_ago = current_time - timedelta(minutes=(minute + 2))
+        time_n_minutes_ago = current_time - timedelta(minutes=(minute+2))
         data = {
             "startTime": time_n_minutes_ago.strftime("%Y-%m-%d %H:%M:%S"),
             "endTime": current_time.strftime("%Y-%m-%d %H:%M:%S"),
