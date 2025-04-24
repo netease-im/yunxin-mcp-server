@@ -714,6 +714,15 @@ def timestamp_format_num_to_str(time: int):
         dt_object = datetime.fromtimestamp(time / 1000)
         return dt_object.strftime("%Y-%m-%d %H:%M:%S")
 
+@mcp.tool(
+    name="current_time",
+    description='''
+                返回当前时间，格式为%Y-%m-%d %H:%M:%S，示例：2025-04-03 10:00:00
+                '''
+)
+def current_time():
+    return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+
 def main():
     print("Yunxin MCP Server running")
 
