@@ -1,6 +1,6 @@
 [project]
 name = "yunxin-mcp-server"
-version = "0.1.2"
+version = "0.1.3"
 description = "yunxin mcp server to request im/rtc api"
 readme = "README.md"
 requires-python = ">=3.11"
