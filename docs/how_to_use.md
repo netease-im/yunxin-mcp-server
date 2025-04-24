@@ -13,7 +13,9 @@
 
 参考：[链接](https://www.deepseek.com/)
 
-### 配置mcp-server
+### 配置mcp-server(需要安装uv环境)
+
+![img_41.png](img_41.png)
 
 参考：[链接](https://docs.cherry-ai.com/advanced-basic/mcp)
 
