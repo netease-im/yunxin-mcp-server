@@ -19,7 +19,7 @@
 
 参考：[链接](https://docs.cherry-ai.com/advanced-basic/mcp)
 
-### 启用yunxin-mcp-server
+### 启动yunxin-mcp-server
 
 * ui 配置
 
@@ -46,5 +46,9 @@
   }
 }
 ```
+
+### 在会话页配置使用yunxin-mcp-server
+
+![img_42.png](img_42.png)
 
 ### 有任何问题欢迎联系云信技术支持！
