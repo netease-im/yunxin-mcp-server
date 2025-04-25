@@ -5,21 +5,21 @@
 
 以下以deepseek和cherry-studio为例
 
-### 下载cherry-studio
+### 1、下载cherry-studio
 
 参考：[链接](https://cherry-ai.com/download)
 
-### deepseek账号注册
+### 2、deepseek账号注册
 
 参考：[链接](https://www.deepseek.com/)
 
-### 配置mcp-server(需要安装uv环境)
+### 3、配置mcp-server(需要安装uv环境)
 
 ![img_41.png](img_41.png)
 
 参考：[链接](https://docs.cherry-ai.com/advanced-basic/mcp)
 
-### 启动yunxin-mcp-server
+### 4、启动yunxin-mcp-server
 
 * ui 配置
 
