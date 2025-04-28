@@ -723,6 +723,15 @@ def timestamp_format_num_to_str(time: int):
 def current_time():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
+@mcp.tool(
+    name="yunxin-mcp-server的版本",
+    description='''
+                返回yunxin-mcp-server的版本，格式为：x.y.z，例子0.1.5
+                '''
+)
+def version():
+    return "0.1.5"
+
 def main():
     print("Yunxin MCP Server running")
 
