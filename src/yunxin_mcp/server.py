@@ -724,7 +724,7 @@ def current_time():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 @mcp.tool(
-    name="yunxin-mcp-server的版本",
+    name="yunxin-mcp-server-version",
     description='''
                 返回yunxin-mcp-server的版本，格式为：x.y.z，例子0.1.5
                 '''
