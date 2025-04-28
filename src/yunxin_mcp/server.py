@@ -726,11 +726,11 @@ def current_time():
 @mcp.tool(
     name="yunxin-mcp-server-version",
     description='''
-                返回yunxin-mcp-server的版本，格式为：x.y.z，例子0.1.5
+                返回yunxin-mcp-server的版本，格式为：x.y.z，例子0.1.6
                 '''
 )
 def version():
-    return "0.1.5"
+    return "0.1.6"
 
 def main():
     print("Yunxin MCP Server running")
